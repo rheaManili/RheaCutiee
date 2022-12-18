@@ -100,6 +100,7 @@ padding-left: 35rem;
   background: var(--yellow);
 }
 
+
 .heading {
   text-align: center;
   margin: 0 6rem;
@@ -354,6 +355,7 @@ height: 20rem;
   margin-left: -60px;
   
 }
+
 
 .family .box-container {
   display: flex;
