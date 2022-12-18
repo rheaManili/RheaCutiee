@@ -113,12 +113,12 @@ padding-left: 35rem;
   color: var(--yellow);
 }
 
-header {
+#sidenav {
   position:fixed;
   top: 0; left: 0;
   z-index: 1000;
   height: 100%;
-  width: 35rem;
+  width: 0px;
    background: white;
    display: flex;
   align-items: center;
@@ -127,7 +127,7 @@ header {
   text-align: center;
 }
 
-header .user img {
+#sidenav .user img {
   height: 17rem;
   width: 17rem;
   border-radius: 50%;
@@ -136,25 +136,25 @@ header .user img {
   border: .7rem solid var(--yellow);
 }
 
-header .user .name {
+#sidenav .user .name {
   font-size: 3.5rem;
   color:black;
 }
 
-header .user .post {
+#sidenav .user .post {
   font-size: 2rem;
   color: Black;
 }
 
-header .navbar {
+#sidenav .navbar {
   width: 100%;
 }
-header .navbar ul {
+#sidenav .navbar ul {
   list-style: none;
   padding: 1rem 3rem;
   
 }
-header .navbar ul li a{
+#sidenav .navbar ul li a{
   display: block;
   padding: 1rem;
   margin: 1.5rem 0;
@@ -166,7 +166,7 @@ header .navbar ul li a{
   border-radius: 5rem;
 }
 
-header .navbar ul li a:hover {
+#sidenav .navbar ul li a:hover {
   background: var(--yellow);
 }
 
@@ -406,13 +406,13 @@ height: 20rem;
 .home {
   padding: 1rem 4rem;
 }
-header{
+#sidenav{
 height: 100%;
 }
 }
 
 @media (max-width:991px) {
-  header {
+  #sidenav {
     left:-120%;
     height: 100%;
   }
@@ -421,7 +421,7 @@ height: 100%;
     display: block;
   }
   
-  header.toggle {
+  #sidenav.toggle {
   left: 0%;
 }
 body {
@@ -436,7 +436,7 @@ body {
 }
 
 @media (max-width:400px) {
-  header {
+  #sidenav {
     width: 100%;
     height: 100%;
 }
