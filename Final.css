@@ -118,7 +118,7 @@ header {
   top: 0; left: 0;
   z-index: 1000;
   height: 100%;
-  width:0px;
+  width: 25rem;
    background: white;
    display: flex;
   align-items: center;
