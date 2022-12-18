@@ -180,12 +180,25 @@
   </div>
     
   
-  
+  <script type="text/javascript">
+  var menu = document.getElementById("menu");
+  var header = document.getElementById("sidenav");
+  header.style.width="0px";
+  menu.onclick=function() {
+    if (header.style.width=="0px") {
+      header.style.width="250px";
+    }
+    else{
+      header.style.width="0px";
+    }   
+      
+  }
+</script>
   
   
   
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   
-  <script src="script.js"> </script>
+
 </body>
 </html>
